@@ -1,12 +1,11 @@
 {
-  "name": "medusa-payment-paypal",
+  "name": "medusa-payment-paypal-mag",
   "version": "6.0.2",
   "description": "Paypal Payment provider for Medusa Commerce",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/medusajs/medusa",
-    "directory": "packages/medusa-payment-paypal"
+    "url": "https://github.com/mageritsynth/medusa-payment-paypal"
   },
   "files": [
     "dist"
