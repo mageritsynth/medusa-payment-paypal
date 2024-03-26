@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PaypalApiPath = exports.PaypalEnvironmentPaths = void 0;
 exports.PaypalEnvironmentPaths = {
-    SANDBOX: "https://api-m.sandbox.paypal.com",
+    SANDBOX: "https://api-m.paypal.com",
     LIVE: "https://api-m.paypal.com",
 };
 exports.PaypalApiPath = {

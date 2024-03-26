@@ -32,7 +32,7 @@ Receive payments on your Medusa commerce application using PayPal.
 2\. Set the following environment variables in `.env`:
 
   ```bash
-  PAYPAL_SANDBOX=true
+  PAYPAL_SANDBOX=false
   PAYPAL_CLIENT_ID=<CLIENT_ID>
   PAYPAL_CLIENT_SECRET=<CLIENT_SECRET>
   PAYPAL_AUTH_WEBHOOK_ID=<WEBHOOK_ID>

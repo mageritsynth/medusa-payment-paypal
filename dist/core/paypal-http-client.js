@@ -60,9 +60,7 @@ var PaypalHttpClient = /** @class */ (function () {
         this.baseUrl_ = types_1.PaypalEnvironmentPaths.LIVE;
         this.options_ = options;
         this.logger_ = options.logger;
-        if (options.sandbox) {
-            this.baseUrl_ = types_1.PaypalEnvironmentPaths.SANDBOX;
-        }
+
         var axiosInstance = axios_1.default.create({
             baseURL: this.baseUrl_,
         });

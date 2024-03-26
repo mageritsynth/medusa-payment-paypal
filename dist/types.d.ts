@@ -1,7 +1,4 @@
 export interface PaypalOptions {
-    /**
-     * Indicate if it should run as sandbox, default false
-     */
     sandbox?: boolean;
     clientId: string;
     clientSecret: string;
